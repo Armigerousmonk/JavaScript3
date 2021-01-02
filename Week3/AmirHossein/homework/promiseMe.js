@@ -1,4 +1,4 @@
-/*function getData(url) {
+function getData(url) {
     fetch(url)
       .then(response => response.json)
       .then(json => console.log(json))
@@ -19,7 +19,7 @@ async function getData(url) {
     };
 
 }
-getData('https://randomfox.ca/floof/')*/
+getData('https://randomfox.ca/floof/')
 
 
 const arrayOfWords = ['apple', 'tomatos', 'avocado'];
