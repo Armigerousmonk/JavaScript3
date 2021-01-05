@@ -21,13 +21,19 @@ h3 {
     margin-bottom: 20px;
 }
 
-#list {
-    padding: 10px;
-
-}
 
 .question {
-    margin-bottom: 10px;
-    padding: 5px;
+
+    padding: 10px;
     background-color: lightgray;
+}
+
+.question:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
 }
