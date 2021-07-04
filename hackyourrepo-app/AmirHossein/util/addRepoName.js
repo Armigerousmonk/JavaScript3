@@ -39,7 +39,6 @@ function addrepoNames(data, select, cardName, card, container, pagination) {
 
           // Creat and adding contributors name to the right side of the page.
           .then(data2 => {
-
             data2.forEach(element2 => {
               console.log(element2)
             let current_page = 1;
